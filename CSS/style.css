@@ -32,7 +32,7 @@ body {
 }
 .nav li {
   list-style: none;
-  margin-right: 40px;
+  margin-left: 40px;
 }
 .nav li a {
   text-decoration: none;
@@ -45,7 +45,7 @@ body {
 /* Brand New styles */
 .brand-new {
   text-align: center;
-  padding: 40px 100px;
+  padding: 40px 0;
 }
 .brand-new .title {
   font-weight: 700;
@@ -87,7 +87,7 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 70px;
-  margin: 85px 0;
+  margin: 85px 30px;
   align-items: center;
 }
 .quick-list-banner {
@@ -126,13 +126,11 @@ main {
 .love-enjoy-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 54px;
+  gap: 104px;
   justify-content: center;
-  /* align-items: center; */
 }
 .love-enjoy-container img {
   width: 100%;
-  margin-left: 90px;
   height: 90%;
 }
 
@@ -179,6 +177,7 @@ main {
   line-height: 40px;
   position: relative;
   top: -100px;
+  left: -70px;
 }
 .btn-lg-orange span {
   font-weight: 700;
@@ -240,10 +239,6 @@ main {
   font-weight: 700;
   font-size: 45px;
   line-height: 53px;
-  /* identical to box height */
-
-  /* Dark 01 */
-
   color: #131313;
 }
 .our-sponsors-container .description {
@@ -266,8 +261,30 @@ main {
 }
 
 /* copy riht styles */
-.copy-right{
-  background: #FFF4E7;
-border-radius: 8px;
-padding: 40px;text-align: center;
+.copy-right {
+  background: #fff4e7;
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+}
+ 
+
+/* Responsive  Mobile Device*/
+@media screen and (max-width: 576px) {
+  .header {
+    padding:0 ;
+  }
+
+  /* Nav styles*/
+  .navbar {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 50px 0 0 10px;
+  }  
+  .nav {
+    flex-direction: column;
+  }
+    
+ 
 }
