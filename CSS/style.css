@@ -10,9 +10,11 @@ body {
 /* Header & nav  */
 .header {
   background: rgba(255, 144, 14, 0.1);
+  padding: 0 150px;
 }
+
+/* Nav styles*/
 .navbar {
-  margin: 0 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,8 +23,8 @@ body {
 .navbar .title {
   font-weight: 700;
   font-size: 45px;
-  line-height: 53px; 
-  text-align: center; 
+  line-height: 53px;
+  text-align: center;
   color: #131313;
 }
 .nav {
@@ -36,6 +38,42 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 18px;
-  line-height: 26px;  
+  line-height: 26px;
   color: #424242;
+}
+
+
+/* Brand New styles */
+.brand-new {
+  text-align: center;
+  padding: 40px 100px;
+}
+.brand-new .title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #131313;
+  margin-bottom: 30px;
+}
+.brand-new .decription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 30px;
+}
+.btn-orange {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: 0;
+}
+.brand-new img {
+  width: 100%;
+  margin-top: 50px;
 }
