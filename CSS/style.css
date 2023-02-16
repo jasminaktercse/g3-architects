@@ -205,13 +205,19 @@ main {
 .container {
   display: flex;
   gap: 50px;
-  margin: 100px 0;
+  margin: 100px 0; 
 }
 .info {
   padding: 35px;
   text-align: center;
   border: 1px solid #ff900e;
   border-radius: 8px;
+  transition: .5s;
+}
+.info:hover{
+  transform: skew(-10deg);
+  box-shadow: 2px 2px 20px 2px lightgray;
+ 
 }
 .info img {
   width: 45.22px;
@@ -328,13 +334,16 @@ main {
     gap: 0;
   }
   .info {
-    margin: 20px;
+    margin: 30px; 
   }
+
+ 
+
   /*  */
-  .our-sponsors-container{
+  .our-sponsors-container {
     padding: 10px;
   }
   .our-sponsors {
-    flex-direction: column; 
+    flex-direction: column;
   }
 }
