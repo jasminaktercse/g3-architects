@@ -127,6 +127,7 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 54px;
+  justify-content: center;
   /* align-items: center; */
 }
 .love-enjoy-container img {
@@ -165,7 +166,7 @@ main {
   color: #131313;
   margin-bottom: 10px;
 }
- 
+
 .btn-lg-orange {
   text-align: center;
   color: #ffffff;
@@ -177,11 +178,56 @@ main {
   font-size: 25px;
   line-height: 40px;
   position: relative;
-  top: -100px; 
+  top: -100px;
 }
 .btn-lg-orange span {
   font-weight: 700;
   font-size: 65px;
   line-height: 70px;
 }
-/*  */
+/* some facts Styles */
+
+.some-facts {
+  margin-top: 100px;
+}
+.some-facts .title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+
+  color: #131313;
+}
+.some-facts .description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-top: 24px;
+}
+.container {
+  display: flex;
+  gap: 50px;
+  margin: 100px 0;
+}
+.info {
+  padding: 35px;
+  text-align: center;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+}
+.info img {
+  width: 45.22px;
+  height: 45.22px;
+}
+.info h3 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+  margin: 10px 0 5px 0;
+}
+.info h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
+}
