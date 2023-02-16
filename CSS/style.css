@@ -82,7 +82,7 @@ main {
   margin: 0 150px;
 }
 
-/* Quick list styles */ 
+/* Quick list styles */
 .quick-list-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -95,12 +95,11 @@ main {
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
- 
+
 .quick-list-banner .banner img {
   width: 100%;
 }
 
- 
 .quick-list-description .title {
   font-weight: 500;
   font-size: 45px;
@@ -117,9 +116,72 @@ main {
   color: #ff900e;
 }
 
-.quick-list-description p{
-    margin-bottom: 32px;
-    font-size: 16px;
-    line-height: 26px;  
-    color: #727272;
+.quick-list-description p {
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
 }
+/* Love & Enjoy Fetures Styles */
+.love-enjoy-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 54px;
+  /* align-items: center; */
+}
+.love-enjoy-container img {
+  width: 100%;
+  margin-left: 90px;
+  height: 90%;
+}
+
+.love-enjoy-container .title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  border-left: 5px solid #ff900e;
+  padding: 0 0 0 20px;
+  margin: 20px 0;
+  margin-bottom: 24px;
+}
+.love-enjoy-container p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.love-enjoy {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.love-enjoy h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+ 
+.btn-lg-orange {
+  text-align: center;
+  color: #ffffff;
+  padding: 25px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: 0;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  position: relative;
+  top: -100px; 
+}
+.btn-lg-orange span {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+}
+/*  */
