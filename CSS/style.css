@@ -231,3 +231,43 @@ main {
   line-height: 23px;
   color: #727272;
 }
+/* our-sponsors styles */
+.our-sponsors-container {
+  text-align: center;
+}
+
+.our-sponsors-container .title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  /* identical to box height */
+
+  /* Dark 01 */
+
+  color: #131313;
+}
+.our-sponsors-container .description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin: 24px 0;
+}
+.our-sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+.our-sponsors img {
+  width: 165.83px;
+  height: 50px;
+}
+
+/* copy riht styles */
+.copy-right{
+  background: #FFF4E7;
+border-radius: 8px;
+padding: 40px;text-align: center;
+}
